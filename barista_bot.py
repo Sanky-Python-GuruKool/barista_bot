@@ -31,10 +31,11 @@ if "messages" not in st.session_state:
     st.session_state.messages.append({"role":"assistant", "content": WELCOME})
 
 st.sidebar.header("☕ Menu")
-st.sidebar.write("Espresso - 500")
-st.sidebar.write("Latte - 300")
-st.sidebar.write("Moca - 800")
-st.sidebar.write("Capucino - 200")
+st.sidebar.write("Espresso - 180")
+st.sidebar.write("Latte - 240")
+st.sidebar.write("Cold Brew - 260")
+st.sidebar.write("Cappuccino - 220")
+st.sidebar.caption("Add-ons: Croissant Rs.120, Brownie Rs.150, Bagel Rs.130")
 st.divider()
 
 
