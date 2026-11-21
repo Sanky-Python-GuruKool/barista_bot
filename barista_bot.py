@@ -1,7 +1,7 @@
 import streamlit as st 
 from google import genai
 from dotenv import load_dotenv
-load_dotenv(r"D:\GanitAnk\2026\Batch 2\Programs\training\training_batch_2\gemini\.env")
+
 
 client = genai.Client()
 
